@@ -1,0 +1,43 @@
+body{
+	background-image: url("1567212991235.jpg");
+	background-repeat:repeat-x;
+}
+.headdiv{
+    background-color: lightgrey;
+	border-bottom:solid 1px lightgrey;
+	box-sizing:border-box;
+	height:20px;
+	width:100px;
+}
+.headth{          /*I want to espace the linkes of the first line*/
+    padding-bottom:10px;
+	padding-left:10px;
+	text-align:left;
+	
+}
+a:link{
+	color:black;
+	text-decoration:none;
+	font-size:10px;
+}
+a:visited{
+	color:black;
+	background-color:green;
+	text-decoration:none;
+	font-size:10px;
+	height:20px;
+}
+
+a:hover, a:active{
+	background-color:green;
+	color:white;
+	text-decoration:none;
+	font-size:10px;
+	height:20px;
+}
+
+h1{
+	text-shadow:2px 2px 10px green;
+	text-align: center;
+	font:italic 30px Arial;
+}
