@@ -6,11 +6,10 @@
 .entete{
     border:solid 1px  #404040;
 	background-color:  #404040;
-	height:20px;
+	overflow-x:auto;
+	height:40px;
 }
 .special-li{
-   color: white;
-   padding:15px;
    display: inline;
 }
 h1{
@@ -22,7 +21,8 @@ h1{
 	margin:auto;
 	border: 1px solid green;
 	background-color: green;
-	max-width:300px;
+	max-width:400px;
+	margin-bottom: 10px
 }
 
 .div2{
@@ -30,20 +30,23 @@ h1{
    position: absolute;
    border:solid 1px lightgreen;
    background-color: green;
-   max-width:100px;
+   max-width:150px;
    max-height: 300px;
    text-align:justify;
    box-sizing: border-box;
+   overflow-y:auto;
 }
 .sticky-div2{
-   border: 1px solid green;
-   background-color:green;
+   top:0px;
+   left:0px
+   position:sticky;
+   background-color:lightgrey;
    color: white;   
 }
 
 .div3{
    position: absolute;
-   margin: auto;
+   left: 500px;
    max-width: 300px;
    border: 1px solid green;
    background-color:green;
@@ -55,16 +58,18 @@ h1{
    right:0px;
    position: absolute;
    max-width:300px;
-   border: 1px solid yellow;
+   border: 1px solid black;
    background-image: url("logo24.png");
    background-repeat: none;
-   color: black;   
+   color: black;
+   overflow-y:auto;   
 }
 
 a:link{
-	color:black;
+	color:white;
 	text-decoration:none;
 	font-size:10px;
+	paddin: 15px;
 }
 a:visited{
 	color:black;
