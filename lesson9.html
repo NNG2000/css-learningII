@@ -9,8 +9,12 @@
 	overflow-x:auto;
 	height:40px;
 }
-.special-li{
-   display: inline;
+li,a{
+    color:white;
+	text-decoration:none;
+	font-size:15px;
+	margin-right: 20px;
+	display: inline;
 }
 h1{
     color:white;
@@ -40,13 +44,14 @@ h1{
    top:0px;
    left:0px
    position:sticky;
+   position:absolute;
    background-color:lightgrey;
    color: white;   
 }
 
 .div3{
    position: absolute;
-   left: 500px;
+   left:33%;
    max-width: 300px;
    border: 1px solid green;
    background-color:green;
@@ -59,18 +64,18 @@ h1{
    position: absolute;
    max-width:300px;
    border: 1px solid black;
-   background-image: url("logo24.png");
-   background-repeat: none;
    color: black;
-   overflow-y:auto;   
+ 
+}
+img{
+    top:0px;
+	left:0px;
+	height:100px;
+	width:100px;
+	z-index: -1;
 }
 
-a:link{
-	color:white;
-	text-decoration:none;
-	font-size:10px;
-	paddin: 15px;
-}
+
 a:visited{
 	color:black;
 	background-color:green;
@@ -103,11 +108,11 @@ a:hover, a:active{
 </div>
 <div class="div1"> <h1> LESSON 9: POSITION</h1></div>
 <div>
-<div class="div2"> <p class="sticky-div2"> this is an sticky element<p>
-<ul><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li><li class= "special-li"> hello guys</li></ul>
+<div class="div2"> <p class="sticky-div2"> this is an sticky element</p>
+<ul class="special"><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li><li> hello guys</li></ul>
 </div>
 <div class="div3"><p> THIS IS AN GREEN ELEMENT IN THE MIDLE OF THE PAGE</P></div>
-<div class="div4"> <p> THIS IS AN ELEMENT with a background image</P></div>
+<div class="div4"><img src="logo24.png" alt="logo bleu"> <p> THIS IS AN ELEMENT with a background image</P></div>
 </div>
 </body>
 </html>
